@@ -1,12 +1,14 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+## [0.1.2] 2023-11-14
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
-## [Unreleased]
-
+### Automatic update
+- `toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.2.1+galaxy0` was updated to `toolshed.g2.bx.psu.edu/repos/iuc/bwa_mem2/bwa_mem2/2.2.1+galaxy1`
+- `toolshed.g2.bx.psu.edu/repos/iuc/bellerophon/bellerophon/1.0+galaxy0` was updated to `toolshed.g2.bx.psu.edu/repos/iuc/bellerophon/bellerophon/1.0+galaxy1`
+- `toolshed.g2.bx.psu.edu/repos/iuc/yahs/yahs/1.2a.2+galaxy0` was updated to `toolshed.g2.bx.psu.edu/repos/iuc/yahs/yahs/1.2a.2+galaxy1`
+- `toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.3.2+galaxy0` was updated to `toolshed.g2.bx.psu.edu/repos/iuc/busco/busco/5.4.6+galaxy0`
+- `toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.1.0+galaxy2` was updated to `toolshed.g2.bx.psu.edu/repos/iuc/datamash_ops/datamash_ops/1.8+galaxy0`
+- `toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy0` was updated to `toolshed.g2.bx.psu.edu/repos/iuc/ggplot2_point/ggplot2_point/3.4.0+galaxy1`
 
 ## [0.1.1] - 2023-10-26
 
