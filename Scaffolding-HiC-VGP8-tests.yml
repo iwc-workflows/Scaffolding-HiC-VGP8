@@ -16,10 +16,10 @@
           elements:
           - identifier: forward
             class: File
-            path: https://zenodo.org/records/10037496/files/HiC%20Forward%20reads.fastqsanger.gz
+            location: https://zenodo.org/records/10037496/files/HiC%20Forward%20reads.fastqsanger.gz
           - identifier: reverse
             class: File
-            path: https://zenodo.org/records/10037496/files/HiC%20reverse%20reads.fastqsanger.gz
+            location: https://zenodo.org/records/10037496/files/HiC%20reverse%20reads.fastqsanger.gz
     Estimated genome size - Parameter File:
       class: File
       location: https://zenodo.org/records/10037496/files/Estimated%20genome%20size%20-%20Parameter%20File.txt
@@ -29,6 +29,7 @@
     Restriction enzymes: arima2
     Haplotype: Haplotype 1
     Trim Hi-C Data?: false
+    Minimum Mapping Quality: 20
   outputs:
     "Reconciliated Scaffolds: gfa":
       asserts:
@@ -70,13 +71,17 @@
           n: 39464
     Hi-C Alignment Stats pre-scaffolding:
       asserts:
-        has_text:
-          text: "reads mapped and paired:	3768722"
+        - has_text_matching:
+            expression: 'reads mapped and paired:	17805.{3}'
     Hi-C Alignment Stats scaffolds:
       asserts:
-        has_text:
-          text: "reads mapped and paired:	3768766"
+        - has_text_matching:
+            expression: 'reads mapped and paired:	17805.{3}'
     Hi-C alignments stats:
       asserts:
         has_text:
-          text: "Hi-C Alignment Stats pre-scaffolding	0.8797322999999999"
+          text: "Hi-C Alignment Stats pre-scaffolding	0.9924"
+    Merged Alignment stats:
+      asserts:
+        - has_text_matching:
+            expression: 'bases mapped \(cigar\):	12933.{4}	129333.{3}'
