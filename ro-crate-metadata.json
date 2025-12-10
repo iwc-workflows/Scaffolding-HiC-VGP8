@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2025-11-12T07:32:54.248773",
+            "datePublished": "2025-12-10T19:37:19.587535",
             "hasPart": [
                 {
                     "@id": "Scaffolding-HiC-VGP8.ga"
@@ -67,7 +67,7 @@
                     "@id": "https://vertebrategenomeproject.org"
                 },
                 {
-                    "@id": "#137681fe-678c-4e94-bf99-334d1161b503"
+                    "@id": "#6ef5cc73-4ae6-4e43-b850-eab5fe18e835"
                 }
             ],
             "name": "Scaffolding-HiC-VGP8/main",
@@ -75,7 +75,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/Scaffolding-HiC-VGP8",
-            "version": "3.2"
+            "version": "3.3"
         },
         {
             "@id": "#galaxy",
@@ -95,7 +95,7 @@
             "name": "VGP"
         },
         {
-            "@id": "#137681fe-678c-4e94-bf99-334d1161b503",
+            "@id": "#6ef5cc73-4ae6-4e43-b850-eab5fe18e835",
             "@type": "Organization",
             "name": "Galaxy"
         },
